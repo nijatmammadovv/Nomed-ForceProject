@@ -1,0 +1,231 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.hero-image{
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 80vh;
+}
+
+.hero-text h1{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: hsl(14, 88%, 53%);
+}
+
+.hero-text{
+    padding: 140px 0;
+}
+
+.container-fluid .navbar-brand{
+    color: #FFC415;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0 50px;
+}
+
+.nav-item .active i{
+    color: #FFC415;
+}
+
+.nav-item .icon i{
+color: white;
+}
+.nav-item .icon i:hover{
+    background-color: #FFC415;
+}
+.nav-item  .nav-link{
+font-size: 18px;
+font-weight: 700;
+}
+.nav-item  .nav-link:hover{
+    color: black;
+}
+
+.page-text{
+    padding: 100px 0;
+}
+.page-text h1{
+    font-weight: 700;
+    font-family: sans-serif;
+    color: black;
+    padding: 10px 110px;
+}
+
+.d-flex{
+    padding: 0 20px;
+}
+
+.d-flex p{
+    padding: 0 55px;
+    color: #87888A;
+    font-size: 20px;
+}
+
+.d-flex .right p{
+    width: 85%;
+}
+
+.card-textt h2{
+    width: 55%;
+    padding: 20px 20px;
+}
+
+.slider-card img{
+    width: 350px;
+    height: 378px;
+}
+
+.slidershow-text{
+    width: 450px;
+    height: 378px;
+    background-color: #212529;
+}
+.slidershow-text .card-textt{
+    color: white;
+}
+
+.carousel{
+    width: 650px;
+}
+
+.author1{
+    border: 1px solid #FFC107;
+    background-color: #FFC107;
+}
+.author2{
+    border: 1px solid #0D6EFD;
+    background-color: #0D6EFD;
+}
+.author3{
+    border: 1px solid #0DCAF0;
+    background-color: #0DCAF0;
+}
+.author4{
+    border: 1px solid #DB3545;
+    background-color: #DB3545;
+}
+
+.portfolio{
+    padding: 100px 0;
+}
+
+.portfolio h1{
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.column img{
+    width: 650px;
+    height: 450px;
+    padding: 0 20px;
+}
+
+.custom-text1 span{
+    color: #E25764;
+    font-size: 20px;
+}
+
+.custom-text2 span{
+    color: #EEB711;
+    font-size: 20px;
+}
+
+.custom-text3 span{
+    color: #69B190;
+    font-size: 20px;
+}
+
+.custom-text4 span{
+    color: #22CFF1;
+    font-size: 20px;
+}
+
+.news{
+   background-color: #F9F9F9;
+}
+
+.news h1{
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.news-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 955px;
+    height: 565px;
+}
+
+.news-image-custom{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 405px;
+    height: 278px;
+}
+
+.newsfooter{
+    padding: 0 30px;
+    width: 50%;
+    color: #565758;
+}
+
+.contact{
+    padding: 100px 0;
+}
+
+.contact h1{
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.col-12 textarea{
+    width: 600px;
+}
+
+.contactform{
+   justify-content: center;
+   padding: 0 380px;
+}
+
+.my-6 input{
+    width: 250px;
+    padding: 10px 10px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.contact-button{
+    justify-content: center;
+    padding: 20px 230px;
+}
+
+.contact-button button{
+   width: 200px;
+   background-color: black;
+   color: white;
+   font-weight: 700;
+   border: 1px solid black;
+   border-radius: 20px;
+}
+
+.contact-button button:hover{
+    color: white;
+}
